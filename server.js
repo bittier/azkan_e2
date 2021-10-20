@@ -7,7 +7,7 @@ const express = require("express");
 const bodyParser = require("body-parser");
 const app = express();
 const shortner = require("./shortner");
-const port = 3000;
+const port = 4008;
 
 app.use(bodyParser.json());
 app.use(bodyParser.urlencoded({extended:true}))
