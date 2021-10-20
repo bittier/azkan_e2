@@ -1,5 +1,5 @@
 /**
- * Created by rishabhshukla on 09/03/17.
+ * Created by Azkan_e.
  */
 
 
@@ -7,7 +7,7 @@ const express = require("express");
 const bodyParser = require("body-parser");
 const app = express();
 const shortner = require("./shortner");
-const port = 4011;
+const port = 3000;
 
 app.use(bodyParser.json());
 app.use(bodyParser.urlencoded({extended:true}))
